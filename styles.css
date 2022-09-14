@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    user-select: none;
+}
+
+a, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+    color: #ffffff;
+    background-color: #00000040;
+    text-shadow: 0 0 10px #000000;
+}
+
+body {
+    max-width: 640px;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    box-shadow: 3px 3px 10px #000;
+background-image: url("images/granite.png");}    
+
+
+header {
+    display: flex;
+    align-items: flex-end;
+    background-image: url("images/V12.png");
+    height: 160px;
+}    
+
+main {
+    background-color: #ddd;
+    height: 480px;
+}    
+
+nav {
+    margin: 10px;
+    background-color: #0002;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+
